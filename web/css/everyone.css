@@ -1,0 +1,130 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : May 11, 2022, 8:43:18 AM
+    Author     : otavio
+*/
+ body{
+    margin: 0;
+    padding: 0;
+    background: #2d3436;
+    color: white;
+}
+.containerIndex{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.btn{
+                
+    position: relative;
+    display: block;
+    color: white;
+    font-size: 14px;
+    font-family: "montserrat";
+    text-decoration: none;
+    margin: 30px 0;
+    border: 2px solid #ff7675;
+    padding: 14px 60px;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: 1s all ease;
+}
+.btn:before{
+    background: #ff7675;
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: -1;
+    transition: all 0.6s ease;
+    width: 0%;
+    height: 100%;
+}
+.btn:hover::before{
+    width: 100%;
+}
+h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.input{
+    height: 20px;
+    width: 300px;
+}
+.select{
+    height: 28px;
+    width: 308px;
+}
+h2{
+    font-size: 20px;
+    font-family: "montserrat";
+}       
+.btn2{
+    background: #2d3436;
+    color: #ff7675;
+    border: 1px solid #ff7675;
+    height: 30px;
+    width: 200px;
+    border-radius: 20px;
+    text-shadow:none;
+    font-family: initial;
+    font-size: 20px;
+}
+            
+.btn2:hover{
+    background: #ff7675;
+    color: white;
+    border: 1px solid white;
+    border-radius: 20px;
+}         
+.btn-center{
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}          
+a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-family: initial;
+    font-size: 20px;
+}
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}  
+.remover{
+    color: #ff7675;
+}
+.paddingBtn{
+    padding-top: 20px;
+}
+table{
+    
+    padding-top: 20px;
+    font-family: initial;
+    font-size: 20px;
+}
+th{
+    color: #ff7675;
+    padding-right: 20px;
+}
+td{
+    padding-right: 20px
+}

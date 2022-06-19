@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Cadastrar Livro</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link rel="stylesheet" href="css/everyone.css">
+        
+    </head>
+    <body>
+        <h1>Cadastrar Livro</h1> 
+        <div class="container">
+       
+            <form method="post" action="CadastroLivro">
+               <h2>Titulo:</h2> 
+                
+               <input type="text" name="titulo" class="input">
+               <h2>Numero de paginas:</h2>
+               
+               <input type="number" name="numeroPag" class="input">
+               <h2>Nome autor:</h2>
+               
+               <input type="text" name="nomeAutor" class="input">
+               <h2>Genero:</h2>
+               
+               <select name="genero" class="select">
+                   <option value="fantasia">Fantasia</option>
+                   <option value="ficcaoLiteraria">Ficção-Literaria</option>
+                   <option value="naoFiccao">Não-Ficção</option>
+                   <option value="ficcaoCientifica">Ficção-Cientifica</option>
+                   <option value="horror">Horror</option>
+                   <option value="suspense">Suspense</option>
+                   <option value="romance">Romance</option>
+                   <option value="poesia">Poesia</option>
+               </select>
+               
+               <h2>Editora:</h2>
+               <input type="text" name="editora" class="input">
+               
+               <h2>Ano Publicação:</h2>
+               <input type="number" name="anoPubli" class="input">
+               
+               <div class="btn-center">
+                   <input type="submit" value="Salvar" class="btn2">      
+               </div>
+            </form>    
+        </div>
+        <div class="btn-center">
+            <a href="index.html" class="btn2">Voltar</a>
+        </div>
+        
+    </body>
+</html>
